@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+legend {
+  text-align: center;
+}
+
+body {
+  background: url("C:\Users\Huilin Chen\Desktop\OthersProject\ProjectX\src\pages\images\index1.png")
+    fixed no-repeat center;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.page-layout {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  width: 393px;
+  left: 50%;
+  top: 50%;
+  padding: 20px 90px 90px 90px;
+  border: 5px;
+  box-sizing: content-box;
+}
+
+h1 {
+  padding: 0px 0px 25px;
+}
+
+#logo {
+  background-color: red;
+  float: left;
+}
+
+#navfornewsfeed {
+  background-color: #488a99;
+  width: 1500px;
+  height: 66px;
+  position: fixed;
+}
+
+.title {
+  display: none;
+  color: #ededed;
+  font-family: verdana;
+  font-size: 25px;
+  width: 350px;
+  margin-top: 6px;
+  margin-left: 150px;
+  font-weight: bold;
+  float: left;
+}
+
+.newsfeednavbar {
+  list-style-type: none;
+  float: left;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+#navfornewsfeednav a {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: century gothic;
+  text-decoration: none;
+  color: #ffffff;
+}
+#navfornewsfeed a:hover {
+  color: #dbae58;
+}
